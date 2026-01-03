@@ -1,3 +1,5 @@
+import math
+
 print("Hello, World!")
 print('Esto tambien funciona con una comilla simple')
 
@@ -11,3 +13,7 @@ print("Python", "es", "brutal", sep = "-")
 # End por defecto es un salto de linea, se puede cambiar con el argumento end
 print("Esto se imprime", end = " ")
 print("es una linea")
+
+
+# F-string para imprimir el valor de una variable
+print(f"El valor de pi es {math.pi}")
