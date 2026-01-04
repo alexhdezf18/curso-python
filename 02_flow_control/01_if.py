@@ -1,4 +1,6 @@
+# Importamos el modulo del sistema operativo
 import os
+
 # Cada vez que ejecutamos el archivo se limpia la terminal
 os.system("clear")
 
