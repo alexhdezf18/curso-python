@@ -40,3 +40,31 @@ if edad >= 18 and tiene_carnet:
     print("Puedes conducir")
 else:
     print("Policia")
+
+
+es_fin_de_semana = False
+if not es_fin_de_semana:
+    print("Venga midu, que hay que stremear")
+
+
+print("\n Anidar condiciones")
+edad = 20
+tiene_dinero = True
+
+if edad >= 18:
+    if tiene_dinero:
+        print("Puedes ir a al discoteca")
+    else:
+        print("Quedate en casa")
+else:
+    print("No puedes entrar a la disco")
+
+
+# Ejemplo mas facil
+if edad < 18:
+    print("No puedes entrar a la disco")
+elif tiene_dinero:
+    print("Puedes ir a la discoteca")
+else:
+    print("Quedate en casa")
+
