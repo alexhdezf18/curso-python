@@ -19,5 +19,5 @@ print(lista2[0]) # manzanas
 print(lista2[1]) # peras
 print(lista2[-1]) # platanos
 
-
+# Acceder elementos de una lista dentro de otra lista
 print(lista_de_listas[1][0])
