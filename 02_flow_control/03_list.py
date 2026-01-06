@@ -50,4 +50,6 @@ print(lista1)
 # Concatenacion reducida (mas eficiente y mas corta)
 lista1 += [7, 8, 9]
 print(lista1)
-           
+
+# Calcular la longitud de la lista len()
+print("Obtener la longitud de la lista con len()", len(lista1))
