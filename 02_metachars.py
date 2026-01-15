@@ -113,7 +113,7 @@ print(found)
 
 # |: Coincidir con una opcion u otra
 fruits = "platano, manzana, aguacate, palta, pera"
-pattern = r"palta|aguacate"
+pattern = r"palta|aguacate|p..a"
 
 matches = re.findall(pattern, fruits)
 print(matches)
