@@ -34,3 +34,24 @@ text = "aaaaaa"
 pattern = f"a{3}"
 matches = re.findall(pattern, text)
 print(matches)
+
+
+# {n, m}: De n a m veces
+text = "u uu uuu u"
+pattern = r"\w{2,3}"
+matches = re.findall(pattern, text)
+print(matches)
+
+# EJERCICIO:
+# Encuentra las palabras de mas de 4 letras
+words = "ala casa arbol leon cinco murcielago"
+pattern = fr"\b\w{4,6}\b"
+matches = re.findall(pattern, text)
+print(matches)
+
+# EJERCICIO
+# Encuentra las palabras de mas de 6 letras
+words = "ala fantastico casa arbol leon cinco murcielago"
+pattern = fr"\b\w{6,}\b"
+matches = re.findall(pattern, text)
+print(matches)
