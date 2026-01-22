@@ -1,8 +1,6 @@
 from curses import meta
-from turtle import title
 from bs4 import BeautifulSoup
 import requests
-from urllib3 import request
 
 url = 'https://www.apple.com/es/shop/buy-mac/macbook-air'
 
